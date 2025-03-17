@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TempMail - Temporary Email</title>
+    <meta name="description" content="Generate temporary email addresses and view emails">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-envelope"></i> TempMail</h1>
+        <p class="subtitle">Temporary Email Service</p>
+        
+        <div class="email-box">
+            <input type="text" id="emailAddress" readonly>
+            <button id="generateEmail"><i class="fas fa-sync-alt"></i> Generate</button>
+        </div>
+
+        <div class="inbox">
+            <h2>Inbox</h2>
+            <div id="emailList"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> TempMail. All rights reserved.</p>
+        <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

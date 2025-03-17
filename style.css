@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #f1f3f4;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #202124;
+}
+
+.container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #1a73e8;
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    color: #5f6368;
+    margin-bottom: 1.5rem;
+}
+
+.email-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+#emailAddress {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #dadce0;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+button {
+    background: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #1557b5;
+}
+
+.inbox {
+    text-align: left;
+}
+
+.inbox h2 {
+    color: #1a73e8;
+    margin-bottom: 1rem;
+}
+
+#emailList {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f8f9fa;
+}
+
+.email-item {
+    padding: 10px;
+    border-bottom: 1px solid #dadce0;
+    transition: background 0.3s;
+}
+
+.email-item:hover {
+    background: #e8f0fe;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    color: #5f6368;
+}
+
+footer a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
